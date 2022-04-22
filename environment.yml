@@ -1,0 +1,13 @@
+name: atelier_astro-python
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - ipympl
+  - notebook
+  - python=3.8
+  - Pillow
