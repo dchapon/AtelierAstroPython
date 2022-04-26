@@ -575,7 +575,7 @@ class CustomColormaps(object):
 
         fig, axes = P.subplots(nrows=nrows)
         fig.subplots_adjust(top=0.95, bottom=0.01, left=0.2, right=0.99)
-        axes[0].set_title("Colormaps", fontsize=14)
+        axes[0].set_title("Tables de couleurs", fontsize=14)
 
         for ax, name in zip(axes, cml):
             ax.imshow(gradient, aspect='auto', cmap=cls.get_cmap(name))
